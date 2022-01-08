@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootsrap 4 Website</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+        integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</head>
+
+<body data-spy="scroll" data-target="#navbar" data-offset="40">
+
+
+    <!-- home section start -->
+
+    <!-- naviagtion start -->
+    <header class="fixed-top px-5" id="header">
+        <nav class="navbar navbar-expand-lg navbar-dark px-5">
+            <a class="navbar-brand" href="#">
+                <img src="img/logo.svg" id="logo">
+            </a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="fas fa-bars" id="menu"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbar">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#service">services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#feature">portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#pricing">pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">about</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#team">team</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">contact</a>
+                    </li>
+                </ul>
+            </div>
+            <a href="#" class="main-btn text-uppercase ml-5">download</a>
+        </nav>
+
+    </header>
+
+    <!-- naviagtion end -->
+
+    <section id="home">
+        <div class="carousel slide" id="slider" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#slider" data-slide-to="0" class="active">1</li>
+                <li data-target="#slider" data-slide-to="1">2</li>
+                <li data-target="#slider" data-slide-to="2">3</li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="row content align-items-center">
+                        <div class="col-lg-6 col-md-10">
+                            <h1>Business is Now Digital</h1>
+                            <p>We blend insights and strategy to create digital products for forward-thinking
+                                organisations.</p>
+                            <a href="" class="main-btn">get started</a>
+                            <a href="" class="transparent-btn">download</a>
+                        </div>
+                        <div class="col-md-6 text-center img">
+                            <img src="img/home1.png" alt="img">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row content align-items-center">
+                        <div class="col-lg-6 col-md-10">
+                            <h1>Crafted for Business</h1>
+                            <p>We blend insights and strategy to create digital products for forward-thinking
+                                organisations.</p>
+                            <a href="" class="main-btn">get started</a>
+                            <a href="" class="transparent-btn">download</a>
+                        </div>
+                        <div class="col-md-6 text-center img">
+                            <img src="img/home2.png" alt="img">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row content align-items-center">
+                        <div class="col-lg-6 col-md-10">
+                            <h1>Based on Bootstrap 4</h1>
+                            <p>We blend insights and strategy to create digital products for forward-thinking
+                                organisations.</p>
+                            <a href="" class="main-btn">get started</a>
+                            <a href="" class="transparent-btn">download</a>
+                        </div>
+                        <div class="col-md-6 img">
+                            <img src="img/home3.png" alt="img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a href="#slider" class="carousel-control-prev" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a href="#slider" class="carousel-control-next" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+        </div>
+    </section>
+    <a href="#home" class="scroll-top">▲</a>
+
+    <div id="loader">
+        <div class="spinner-border text-primary"></div>
+    </div>
+    <!-- home section ends -->
+
+
+    <!-- service section start -->
+    <section id="service" class="padding">
+        <div class="heading-content">
+            <h2 class="heading">our services</h2>
+            <p class="text-muted">Stop wasting time and money designing and managing a website that doesn’t get results.
+                Happiness guaranteed</p>
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-box">
+                        <div class="service-box-header">
+                            <h2>graphics design</h2>
+                            <i class="fas fa-palette"></i>
+                        </div>
+                        <p>Short description for the ones who look for something new. Short description for the ones who
+                            look for something new.</p>
+                        <a href="#">learn more</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-box">
+                        <div class="service-box-header">
+                            <h2>Website design</h2>
+                            <i class="fas fa-pager"></i>
+                        </div>
+                        <p>Short description for the ones who look for something new. Short description for the ones who
+                            look for something new.</p>
+                        <a href="#">learn more</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-box">
+                        <div class="service-box-header">
+                            <h2>Digital marketing</h2>
+                            <i class="fas fa-bolt"></i>
+                        </div>
+                        <p>Short description for the ones who look for something new. Short description for the ones who
+                            look for something new.</p>
+                        <a href="#">learn more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- service section end -->
+
+
+
+    <!-- feature section start -->
+
+    <section id="feature" class="padding">
+        <div class="heading-content">
+            <h2 class="heading">featured works</h2>
+            <p class="text-muted">Stop wasting time and money designing and managing a website that doesn’t get results.
+                Happiness guaranteed</p>
+        </div>
+        <div class="container-fluid">
+            <div class="row justify-content-center">
+                <div class="col-md-3">
+                    <ul class="feature-nav">
+                        <li data-target="all" class="feature-item active">all works</li>
+                        <li data-target="branding" class="feature-item">branding</li>
+                        <li data-target="marketing" class="feature-item">marketing</li>
+                        <li data-target="planning" class="feature-item">planning</li>
+                        <li data-target="research" class="feature-item">reserch</li>
+                    </ul>
+                </div>
+                <div class="col-md-9 feature-filter">
+                    <div class="feature-filter-item branding planning">
+                        <img src="img/fe1.png" alt="">
+                        <div class="img-content">
+                            <i class="fas fa-search"></i>
+                            <i class="fas fa-share"></i>
+                        </div>
+                    </div>
+                    <div class="feature-filter-item marketing research">
+                        <img src="img/fe2.png" alt="">
+                        <div class="img-content">
+                            <i class="fas fa-search"></i>
+                            <i class="fas fa-share"></i>
+                        </div>
+                    </div>
+                    <div class="feature-filter-item branding marketing">
+                        <img src="img/fe3.png" alt="">
+                        <div class="img-content">
+                            <i class="fas fa-search"></i>
+                            <i class="fas fa-share"></i>
+                        </div>
+                    </div>
+                    <div class="feature-filter-item planning research">
+                        <img src="img/fe4.png" alt="">
+                        <div class="img-content">
+                            <i class="fas fa-search"></i>
+                            <i class="fas fa-share"></i>
+                        </div>
+                    </div>
+                    <div class="feature-filter-item branding marketing">
+                        <img src="img/fe5.png" alt="">
+                        <div class="img-content">
+                            <i class="fas fa-search"></i>
+                            <i class="fas fa-share"></i>
+                        </div>
+                    </div>
+                    <div class="feature-filter-item planning">
+                        <img src="img/fe6.png" alt="">
+                        <div class="img-content">
+                            <i class="fas fa-search"></i>
+                            <i class="fas fa-share"></i>
+                        </div>
+                    </div>
+                    <div class="feature-filter-item marketing">
+                        <img src="img/fe7.png" alt="">
+                        <div class="img-content">
+                            <i class="fas fa-search"></i>
+                            <i class="fas fa-share"></i>
+                        </div>
+                    </div>
+                    <div class="feature-filter-item planning">
+                        <img src="img/fe8.png" alt="">
+                        <div class="img-content">
+                            <i class="fas fa-search"></i>
+                            <i class="fas fa-share"></i>
+                        </div>
+                    </div>
+                    <div class="feature-filter-item research">
+                        <img src="img/fe9.png" alt="">
+                        <div class="img-content">
+                            <i class="fas fa-search"></i>
+                            <i class="fas fa-share"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- feature section ends -->
+
+    <!-- pricing section start -->
+    <section id="pricing" class="padding">
+        <div class="heading-content">
+            <h2 class="heading">Pricing Plans</h2>
+            <p class="text-muted">Stop wasting time and money designing and managing a website that doesn’t get results.
+                Happiness guaranteed</p>
+        </div>
+        <div class="container-fluid">
+            <div class="row justify-content-center">
+                <div class="col-lg-4 col-md-6">
+                    <div class="pricing-box">
+                        <img src="img/bike.svg" alt="">
+                        <h3>basic</h3>
+                        <p><span class="price">$699</span><span class="slash">/</span>month</p>
+                        <p class="text-left"> Carefully crafted components</p>
+                        <p class="text-left"> Amazing page examples</p>
+                        <a href="#" class="main-btn">get started</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="pricing-box">
+                        <img src="img/car.svg" alt="">
+                        <h3>pro</h3>
+                        <p><span class="price">$699</span><span class="slash">/</span>month</p>
+                        <p class="text-left"> Carefully crafted components</p>
+                        <p class="text-left"> Amazing page examples</p>
+                        <a href="#" class="main-btn">get started</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="pricing-box">
+                        <img src="img/train.svg" alt="">
+                        <h3>enterprise</h3>
+                        <p><span class="price">$699</span><span class="slash">/</span>month</p>
+                        <p class="text-left"> Carefully crafted components</p>
+                        <p class="text-left"> Amazing page examples</p>
+                        <a href="#" class="main-btn">get started</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- pricing section ends -->
+
+    <!-- about section start -->
+    <section id="about" class="padding">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-5">
+                    <p class="section-subtitle">a little more about us</p>
+                    <h2>Frequently Asked Questions
+                        About Our Site</h2>
+                    <div class="accordian">
+                        <div class="box">
+                            <div class="box-header" data-toggle="collapse" data-target="#collapse-1">Frequently Asked
+                                Question One</span></div>
+                            <div class="collapse" id="collapse-1">
+                                <div class="box-body">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, aliquam? Rem,
+                                    placeat
+                                    quia dolorem odit blanditiis consequuntur voluptate et voluptatibus maxime dolor
+                                    laboriosam.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="box-header" data-toggle="collapse" data-target="#collapse-2">Frequently Asked
+                                Question Two </span></div>
+                            <div class="collapse" id="collapse-2">
+                                <div class="box-body">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, aliquam? Rem,
+                                    placeat
+                                    quia dolorem odit blanditiis consequuntur voluptate et voluptatibus maxime dolor
+                                    laboriosam.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="box-header" data-toggle="collapse" data-target="#collapse-3">Frequently Asked
+                                Question Three </span></div>
+                            <div class="collapse" id="collapse-3">
+                                <div class="box-body">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, aliquam? Rem,
+                                    placeat
+                                    quia dolorem odit blanditiis consequuntur voluptate et voluptatibus maxime dolor
+                                    laboriosam.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="box-header" data-toggle="collapse" data-target="#collapse-4">Frequently Asked
+                                Question Four </span></div>
+                            <div class="collapse" id="collapse-4">
+                                <div class="box-body">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, aliquam? Rem,
+                                    placeat
+                                    quia dolorem odit blanditiis consequuntur voluptate et voluptatibus maxime dolor
+                                    laboriosam.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="box-header" data-toggle="collapse" data-target="#collapse-5">Frequently Asked
+                                Question Five</div>
+                            <div class="collapse" id="collapse-5">
+                                <div class="box-body">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, aliquam? Rem,
+                                    placeat
+                                    quia dolorem odit blanditiis consequuntur voluptate et voluptatibus maxime dolor
+                                    laboriosam.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-7">
+                    <img src="img/about.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- about section ends -->
+
+    <!-- testimonial section start -->
+    <section id="testimonial" class="padding">
+        <div class="container-fluid">
+            <div class="row justify-content-center">
+                <div class="col-md-5">
+                    <p class="section-subtitle">testimonials</p>
+                    <h2>what our clients says about us</h2>
+                    <div class="dot-style">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <p class="text">Duis et metus et massa tempus lacinia. Class aptent taciti sociosqu ad litora
+                        torquent per conubia nostra, per inceptos himenaeos. Maecenas ultricies, orci molestie blandit
+                        interdum.</p>
+                    <p class="text">ipsum ante pellentesque nisl, eget mollis turpis quam nec eros. ultricies, orci
+                        molestie blandit interdum.</p>
+                </div>
+
+                <div class="col-md-7">
+                    <div class="testimonial-box">
+                        <div class="comma">❞</div>
+                        <p class="testimonial-text">" Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias
+                            voluptatibus fugiat
+                            adipisci aperiam quis obcaecati, suscipit officiis magni quod ab et natus velit. "</p>
+                        <div class="testimonial-footer">
+                            <div class="row">
+                                <div class="col-md-7 d-flex">
+                                    <img src="img/author-1.jpg" class="img">
+                                    <div class="name-content">
+                                        <p class="name">john due</p>
+                                        <p class="work">web designer</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-5">
+                                    <div class="icons">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                    <p class="review">( 7 ) reviews</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="arrow">
+                    <i class="fas fa-arrow-left" id="prev"></i>
+                    <i class="fas fa-arrow-right" id="next"></i>
+                </div>
+    </section>
+    <!-- testimonial section ends -->
+
+
+    <!-- team section start -->
+
+    <section id="team" class="padding">
+        <div class="heading-content">
+            <h2 class="heading">Meet The Team</h2>
+            <p class="text-muted">Stop wasting time and money designing and managing a website that doesn’t get results.
+                Happiness guaranteed</p>
+        </div>
+        <div class="container-fluid">
+            <div class="row justify-content-center">
+                <div class="col-lg-4 col-md-6">
+                    <div class="box">
+                        <img src="img/team-1.jpg" alt="">
+                        <div class="content">
+                            <h3>Jeffery Riley</h3>
+                            <p>art director</p>
+                            <div class="animate-div">
+                                <div class="share-icons">
+                                    <a href="#" class="fab fa-facebook-f"></a>
+                                    <a href="#" class="fab fa-instagram"></a>
+                                    <a href="#" class="fab fa-twitter"></a>
+                                    <a href="#" class="fab fa-linkedin"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="box">
+                        <img src="img/team-2.jpg" alt="">
+                        <div class="content">
+                            <h3>Riley Beata</h3>
+                            <p>web designer</p>
+                            <div class="animate-div">
+                                <div class="share-icons">
+                                    <a href="#" class="fab fa-facebook-f"></a>
+                                    <a href="#" class="fab fa-instagram"></a>
+                                    <a href="#" class="fab fa-twitter"></a>
+                                    <a href="#" class="fab fa-linkedin"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="box">
+                        <img src="img/team-3.jpg" alt="">
+                        <div class="content">
+                            <h3>Mark A. Parker</h3>
+                            <p>UX designer</p>
+                            <div class="animate-div">
+                                <div class="share-icons">
+                                    <a href="#" class="fab fa-facebook-f"></a>
+                                    <a href="#" class="fab fa-instagram"></a>
+                                    <a href="#" class="fab fa-twitter"></a>
+                                    <a href="#" class="fab fa-linkedin"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- team section ends -->
+
+
+
+    <!-- contact section start -->
+
+    <section id="contact" class="padding">
+        <div class="heading-content">
+            <h2 class="heading">contact</h2>
+            <p class="text-muted">Stop wasting time and money designing and managing a website that doesn’t get results.
+                Happiness guaranteed</p>
+        </div>
+        <div class="row justify-content-center mt-5">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29386.963165357774!2d72.58214575267809!3d22.97340328857248!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e8f5949391fdb%3A0x1470f51f2439aa59!2sIsanpur%2C%20Ahmedabad%2C%20Gujarat%20380043!5e0!3m2!1sen!2sin!4v1627310178506!5m2!1sen!2sin"
+                width="1000" height="600" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+        <div class="container-fluid">
+            <div class="row justify-content-center row-margin">
+                <div class="col-lg-4 col-md-6">
+                    <div class="box">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div class="content">
+                            <p>Elizabeth St, Melbourne</p>
+                            <p>1202 Australia.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="box">
+                        <i class="fas fa-envelope"></i>
+                        <div class="content">
+                            <p>hello@ayroui.com</p>
+                            <p>support@uideck.com</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="box">
+                        <i class="fas fa-phone"></i>
+                        <div class="content">
+                            <p>+333 789-321-654</p>
+                            <p>+333 985-458-609</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="contact-heading">
+            <i class="fas fa-envelope"></i>
+            <span class="font-weight-bold">leave</span> A Message.
+        </div>
+        <div class="container-fluid">
+            <div class="row row-margin ">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label class="text-muted">name</label>
+                        <input type="text" class="form-control inp" placeholder="name">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label class="text-muted">email</label>
+                        <input type="email" class="form-control inp" placeholder="email">
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="d-flex flex-column">
+                        <div class="form-group">
+                            <label class="text-muted">message</label>
+                            <textarea class="form-control" placeholder="message"></textarea>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <a href="#" class="btn btn-outline-primary">send message</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- contact section ends -->
+
+    <!-- footer section start -->
+    <footer class="padding">
+        <div class="footer-content">
+            <img src="img/logo.svg" alt="">
+            <div class="icons">
+                <a href="#" class="fab fa-facebook-f"></a>
+                <a href="#" class="fab fa-instagram"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-linkedin"></a>
+            </div>
+            <div class="number">+8801234567890</div>
+            <div class="email">support@example.com</div>
+            <div class="credit">
+                <p>design by <a href="#" class="nav-link d-inline-block p-0 m-0">devang</a> <i
+                        class="text-danger fas fa-heart"></i> | all copyrights reserved</p>
+            </div>
+        </div>
+    </footer>
+    <!-- footer section ends -->
+
+
+
+
+
+
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
